@@ -1,0 +1,139 @@
+<html>
+	<head>
+		<title>
+			Formulario
+		</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+		
+		<script>
+			$( function() {
+				$( "#datepicker" ).datepicker();
+			} );
+		</script>
+		
+	</head>
+	
+	<body>
+		<h1>
+			Formulario Ejemplo
+		</h1>
+		<p>
+			<div id="header">
+				<ul class="nav">
+					<li><a href="">Inicio</a></li>
+				
+					<li><a href="">Servicios</a></li>
+						<ul>
+							<li><a href="">Submenu 1</a></li>
+							<li><a href="">Submenu 2</a></li>
+							<li><a href="">Submenu 3</a></li>
+							<li><a href="">Submenu 4</a></li>
+						</ul>
+					</li>
+					<li><a href="">Acerca de</a>
+						<ul>
+							<li><a href="">Submenu 1</a></li>
+							<li><a href="">Submenu 2</a></li>
+							<li><a href="">Submenu 3</a></li>
+							<li><a href="">Submenu 4</a></li>
+						</ul>
+					</li>
+					<li><a href="">Contacto</a></li>
+				</ul>
+			</div>
+		</p>
+		<p>
+			Nombre:
+			<input type="Textbox">
+		</p>
+		<p>
+			Apellido:
+			<input type="Textbox">
+		</p>
+		<p>
+			Email:
+			<input id="email">
+			<span id="emailOK"></span>
+		</p
+		<p>
+			Contrasenia:
+			<input type="password">
+		</p>
+		<p>
+			Carrera:
+			<select>
+				<option value="LSTI">
+				Licenciado en Seguridad en TI
+				<option value="LMAD">
+				Licenciado en Multimedia
+				<option value="LM">
+				Licenciado en Ciencias Computacionales
+				<option value="LA">
+				Licenciado en Actuaria
+			</select>
+		</p>
+		<p>
+			<strong>Fecha:</strong> 
+			<input type="text" id="datepicker">
+		</p>
+		<p>
+			<input type="submit" name="enviar" value="enviar" />
+		</p>
+		<p>
+			En esta pagina te proporcionamos los siguientes aspectos de las distintas carreras que tiene la facultad: 
+		</p>
+		<table border=1>
+		<tr>
+			<th> Carrera </th>
+			<th> Semestres </th>
+			<th> Anios de duracion </th>
+			<th> Modalidad </th>
+			<th> Periodo </th>
+		</tr>
+		<tr>
+			<td> LSTI </td>
+			<td> 8 </td>
+			<td> 4 </td>
+			<td> Escolarizada </td>
+			<td> Semestral </td>
+		</tr>
+		<tr>
+			<td> LMAD </td>
+			<td> 9 </td>
+			<td> 4.5 </td>
+			<td> Escolarizada </td>
+			<td> Semestral </td>
+		</tr>
+		<tr>
+			<td> LA </td>
+			<td> 7 a 14 </td>
+			<td> 3.5 a 7 </td>
+			<td> Escolarizada </td>
+			<td> Semestral </td>
+		</tr>
+		<tr>
+			<td> LCC </td>
+			<td> 9 </td>
+			<td> 4.5 </td>
+			<td> Escolarizada </td>
+			<td> Semestral </td>
+		</tr>
+		</table>
+		<p>
+		La facultad tiene como mascota un bisonte y tenemos distintos deportes como: tenis, futbol 7, animacion, tenis de mesa, futbol americano, entre otras distintos deportes.
+		</p>
+		<a>
+		<img src="ldoo/imagenpag.jpg" border="1" width="200px" alt="foto de la facultad">
+		</a>
+		</p>
+		<p>
+		<iframe src="https://www.youtube.com/embed/RoZN7FDruwE" width="560" height="315" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</p>
+	</body>
+</html>
